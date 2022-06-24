@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Baumann</title>
+<link rel="stylesheet" type="text/css" href="Baumann.css">
+<script type="text/javascript">
+    alert("test");
+</script>
+</head>
+<body>
+    <h1 style="color: darkblue;">Online Language School Baumann</h1><br>
+    <img src="applause.png"/>
+    <h2 style="color:darkblue;">Application Form:<br><br>
+        Please insert your personal data, choose your<br>
+        desired language, and give some basic information<br>
+        on your level and the desired course equipment</h2>
+    <h3 style="color: darkblue;"></h3>
+<form>
+    First name:<br>
+    <input type="text" name="firstname" required ><br>
+    Last name:<br>
+    <input type="text" name="last name" required ><br>
+    User password:<br>
+    <input type="password" name="password"><br>
+
+    Birthday:<br>
+    <input type="date" name="birthday"><br>
+
+    <h4 style="color:darkblue;font-size: 16px;">Please select your desired language:</h4>
+    <input type="radio" name="language" value="English">English<br>
+    <input type="radio" name="language" value="Francais">Francais<br>
+    <input type="radio" name="language" value="Deutsch">Deutsch<br>
+    <input type="radio" name="language" value="Espagnol">Espagnol<br>
+    <input type="radio" name="language" value="Italiano">Italiano<br>
+    <input type="radio" name="language" value="Polski">Polski<br>
+
+    <h5 style="color:darkblue;font-size: 16px;">What is your level of command?</h5>
+    <input type="radio" name="skills" value="Beginner"> Absolute beginner<br>
+    <input type="radio" name="skills" value="Advanced"> Advanced<br>
+    <input type="radio" name="skills" value="Fluent"> Almost fluent<br>
+
+    <h6 style="color: darkblue;font-size: 16px">Choose your course equipment (optional)!</h6>
+    <input type="checkbox" name="Equipment" value="Language test"> Preliminary language test<br>
+    <input type="checkbox" name="Equipment" value="Pronounciation assistant"> Pronounciation assistant<br>
+    <input type="checkbox" name="Equipment" value="Cours book"> Course book (PDF)<br>
+    <input type="checkbox" name="Equipment" value="Grammar"> Additional grammar book (PDF)<br><br>
+
+    Duration of the course (between 1 and 12 months):
+    <input type="number" name="quantity" min="1" max="12"><br><br>
+
+    Number of booked sessions per month (between 4 and 31):
+    <input type="number" name="quantity" min="1" max="31"><br><br>
+
+    Thank you very much!
+
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
+
+
